@@ -1,0 +1,251 @@
+html,body{
+    font-family: 'Roboto', sans-serif;    
+    max-width: 100% !important; 
+    /* height: 100%; */
+    margin: 0px !important; 
+    padding: 0px !important; 
+    overflow-x: hidden !important;
+}
+.address{
+    font-size: 1.2rem;
+}
+.who-we-are{
+    border-radius: 1rem;
+    padding: 2rem 1rem 9.8rem 1rem !important;
+}
+.about-container{
+    padding: 3rem 0 5rem 0;
+}
+.sch-list{
+    margin-bottom: 1rem;
+}
+.about-head{margin-bottom: 3rem;}
+.p-text{
+    font-size: 1.2rem;    
+}
+.min-rad{
+    border-radius: 1rem;
+}
+.obj-list{
+    padding: 1rem;
+}
+.icon-list{ margin: 0 .3rem 0 .5rem;}
+.read-more{
+    margin: 2.5rem 0;
+}
+.carousel-item{
+    min-width: 40rem;
+}
+.blockquote{
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: none; /* Just change the color value and that's it*/
+}
+.testimonial-text{
+    font-size: 1.5rem !important;
+}
+.card-testimonial{
+    border-radius: 1.4rem !important;
+    border: 1px solid blue;
+}
+.card-radius{
+    border-radius: 1.4rem !important;
+}
+.parent-name{
+    font-size: 2rem;
+}
+.section-padding{
+    padding: 4rem;
+}
+.new-title{
+    width: 100% !important;
+    padding: 7px !important;
+}
+.underline{
+    text-decoration: underline;
+}
+.mt-2{
+    margin-top: 1rem;
+}
+.justify-text{
+    text-align: justify;
+}
+.pd-s-0{
+    padding-bottom: .5rem;
+}
+.ps-s{
+    padding-bottom: 1rem;
+}
+.pd-s{
+    padding-bottom: 2rem !important;
+}
+.pd-sm{
+    padding-bottom: 3rem !important;
+}
+.pd-sm-1{
+    padding-bottom: 4rem;
+}
+.no-margin-top{
+    margin-top: 0 !important;
+}
+.m-right{
+    margin-right: .5rem;
+}
+.fa-icon{
+    
+}
+
+.neg-mar-1{
+    margin-top: -12rem;
+    /* padding-bottom: 20rem; */
+}
+.neg-mar-2{
+    margin-top: -5rem;
+}
+.pd-lg{
+    padding-top: 10rem;
+}
+.m-top{
+    margin-top: 3rem;
+}
+.m-top-1{
+    margin-top: 5rem;
+}
+.s-text{
+    font-size: 1.2rem;
+}
+.header{
+    /* margin-top: -3rem; */
+    height: 80vh;
+    background-image: linear-gradient( 
+        to right bottom, 
+        #4d4dffcc,
+        #0000e6d0),
+        url('https://github.com/oluSammy/danbo-website/blob/master/img/test.jpg?raw=true');
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
+}
+.para-overlay{
+    background-image: linear-gradient( to right bottom, #4d4dffcc, #0000e6d0), 
+                      url(../img/test.jpg);        
+        background-size: cover;
+        background-position: top;
+        clip-path: polygon(0 25%, 100% 0%, 100% 100%, 0% 100%);
+
+}
+.section-more{
+   margin-top: -3rem !important;
+}
+.content{
+    padding-top: 10rem;
+}
+.pd-top-lg{
+    padding-top: 16rem;
+}
+.count{
+    font-size: 1.5rem;
+    color: red !important;
+    font-weight: 700;
+}
+.header-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;  
+}
+.heading-primary{
+    color: #fff;
+    text-transform: uppercase;
+}
+.heading-primary-main{
+    display: block;
+    font-size: 3rem;
+    font-weight: 400;
+    animation-name: moveInRight ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    
+    /* animation-delay: 3s; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* letter-spacing: .6rem; */
+}
+.heading-primary-sub{
+    display: block;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: .36rem;
+    animation-name: moveInLeft ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;    
+}
+.btn-enroll{
+    font-size: 1.6rem !important;
+    /* padding: 0 2.5rem !important; */
+    /* border-radius: 1rem !important; */
+    display: inline-block !important;
+    animation: moveInBottom;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out; 
+}
+
+.award-txt{
+    font-size: 1rem;
+}
+@keyframes moveInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    80%{
+        transform: translateX(15px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes moveInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    80%{
+        transform: translateX(-15px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveInBottom{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    80%{
+        /* transform: translatey(-15px); */
+        /* transform: translateY(); */
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.section-awards{
+    opacity: o.6 !important;
+}
+.testimonial-padding{
+    padding: 2rem;
+}
+.testimonial-txt{
+    font-style: italic;
+}
+
+.quick-links:hover{    
+    text-decoration: underline;
+    color: red !important;
+    /* transform: scale(.9); */
+}
