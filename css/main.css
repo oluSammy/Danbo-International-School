@@ -91,9 +91,6 @@ html,body{
 .m-right{
     margin-right: .5rem;
 }
-.fa-icon{
-    
-}
 
 .neg-mar-1{
     margin-top: -12rem;
@@ -151,6 +148,9 @@ html,body{
 }
 .content{
     padding-top: 10rem;
+}
+.pd-top-md{
+    /* padding-top: 1rem; */
 }
 .pd-top-lg{
     padding-top: 16rem;
@@ -266,4 +266,22 @@ html,body{
 }
 .card-border{
     border: 1px solid red !important;
+}
+
+.tabs .tab a{
+    color:#000 !important;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+    background-color:#eee;
+    color:#000 !important;
+} /*Text color on hover*/
+
+.tabs .tab a.active {
+    background-color: #303f9f !important;
+    color:#eee !important;
+} /*Background and text color when a tab is active*/
+
+.tabs .indicator {
+    background-color: transparent !important;
 }
