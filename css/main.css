@@ -71,10 +71,10 @@ html,body{
     text-align: justify;
 }
 .pd-s-0{
-    padding-bottom: .5rem;
+    padding-bottom: .5rem !important;
 }
 .ps-s{
-    padding-bottom: 1rem;
+    padding-bottom: 1rem !important;
 }
 .pd-s{
     padding-bottom: 2rem !important;
@@ -142,6 +142,18 @@ html,body{
         background-position: top;
         clip-path: polygon(0 25%, 100% 0%, 100% 100%, 0% 100%);
 
+}
+.card-vision{
+    background-image: linear-gradient( to right bottom, #4d4dffcc, #0000e6d0), 
+                      url(../img/test.jpg);        
+        background-size: cover;
+        background-position: top;   
+}
+.admission-section{
+    background-image: linear-gradient( to right bottom, #4d4dffcc, #0000e6d0), 
+                      url(../img/test.jpg);        
+        background-size: cover;
+        background-position: top;           
 }
 .section-more{
    margin-top: -3rem !important;
