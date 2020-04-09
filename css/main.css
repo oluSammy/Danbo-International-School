@@ -135,14 +135,26 @@ html,body{
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
 }
-.header3{
+.header-3{
     /* margin-top: -3rem; */
     height: 90vh;
     background-image: linear-gradient( 
         to right bottom, 
         #4d4dffcc,
         #0000e6d0),
-        url('https://lh3.googleusercontent.com/KACA8T5Z-8Ou5Eyu0u_Sk-eQxr2G_HQTOBwup1maG2ObvKKXoPIOe7Jyr4KPY_PlRxLfM8RcavbyKisXC_hr1Yryw3uC2jFyPlYxQKPbWV1iOYQu8IXNL5ov9BeNKq9hQweqynjYDDTN3yVrpeoyCMb8HL76a-n8vhzWdyH3S6j3Ye5w-isa7QJQ-ZPjmv0pvC9WRMnex5FhKyw0iYG6cPTIQPiD51QpoDJnK8MBMaZpkCpqnLhGOr1PELhjhy5QmKdiFFG_Wj7ViyHhGVgo4vWt-sjW_lQlM7TUGzcAohox1jPkYk-O4L0SZL1wruav2y8ZlbxiY_KK2bJYVDNsCXvIluxozU6bGWW4ozA0GFZczphEZ_XVysMIDfaveV5W7tAPEdQreE22HvHZKi_FOeMEuTgE0qcuqGEW6jopR-IYaqtyBI8IbzGZ6W29H2T2OwSk0RwAaRnVZHfb4aOiSdPRHURiIkKbaASo480ywTX3Gv0CCJ22X7--0fDKWfIwACsnnDkzIfgxPDD8mkriusFhjECkz9KdBiogEa2kzu4A-flZ81xkEuHTnY3ZKkHUCgcb3v1LIXEqX3awvWPoRSVVUlx1H8ivmu31CLseNLJqrJ-4reey6ML1WV94E_Wvd_GkdxkcixMxNp_rJXNFrp14C_NxqV5U5F13POivthXLDzxhWfqqnFM6kXsm=w1191-h797-no');
+        url('https://github.com/oluSammy/Rolodex/blob/master/danbo%20primary%20header.JPG?raw=true');
+    background-size: cover;
+    background-position: top;
+    /* clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%); */
+}
+.header-4{
+    /* margin-top: -3rem; */
+    /* height: 90vh; */
+    background-image: linear-gradient( 
+        to right bottom, 
+        #4d4dffcc,
+        #0000e6d0),
+        url('');
     background-size: cover;
     background-position: top;
     /* clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%); */
@@ -308,3 +320,12 @@ html,body{
 .tabs .indicator {
     background-color: transparent !important;
 }
+/* .sch-head-box{
+    position: relative;
+}
+.sch-head{
+    background-color: rgba(255, 255, 255, 0.527);
+    width: 100%;
+    position: absolute;
+    bottom: .4rem;
+} */
