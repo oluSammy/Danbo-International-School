@@ -171,6 +171,18 @@ html,body{
     background-position: top;
     /* clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%); */
 }
+.header-dsens-1{
+    /* margin-top: -3rem; */
+    height: 80vh;
+    background-image: linear-gradient( 
+        to right bottom, 
+        #4d4dffab,
+        #0000e6bb),
+        url('https://github.com/oluSammy/Rolodex/blob/master/danbo%20dsens%20background.jpeg?raw=true');
+    background-size: cover;
+    background-position: top;
+    /* clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%); */
+}
 .header-sixth-2{
     /* margin-top: -3rem; */
      /* height: 90vh;  */
@@ -345,12 +357,11 @@ html,body{
 .tabs .indicator {
     background-color: transparent !important;
 }
-/* .sch-head-box{
-    position: relative;
+
+.dsens-curriculum{
+    background-color: #7888ff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%237888ff' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%236978f4' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%235967e9' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%234957de' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%233747d3' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%232236c7' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+padding: 6rem 0;
 }
-.sch-head{
-    background-color: rgba(255, 255, 255, 0.527);
-    width: 100%;
-    position: absolute;
-    bottom: .4rem;
-} */
