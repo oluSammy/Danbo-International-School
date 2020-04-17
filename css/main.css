@@ -173,7 +173,7 @@ html,body{
 }
 .header-dsens-1{
     /* margin-top: -3rem; */
-    height: 90vh;
+    height: 70vh;
     background-image: linear-gradient( 
         to right bottom, 
         #4d4dffab,
@@ -236,9 +236,6 @@ html,body{
 }
 .content{
     padding-top: 10rem;
-}
-.pd-top-md{
-    /* padding-top: 1rem; */
 }
 .pd-top-lg{
     padding-top: 16rem;
