@@ -397,3 +397,21 @@ html,body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.slider-list{
+    position: relative;
+}
+.slider-tagline{
+    position: absolute;
+    background-color: black;
+    color: white;
+    opacity: .6;
+    bottom: 3rem;
+    left: 20%;
+    font-size: 1.3em;
+    padding: 1.3rem;
+    border-radius: 20px;
+    width: 60%;
+    text-transform: uppercase;
+    text-align: center;
+}

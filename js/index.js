@@ -19,8 +19,9 @@
     var slider = document.querySelectorAll('.slider');
     var instances = M.Slider.init(slider, {
         indicators: false,
-        transition: 500,
-        interval:   4000
+        duration: 1000,
+        interval:   4000,
+        height: 600
     });
 
     var elems1 = document.querySelectorAll('.materialboxed');
