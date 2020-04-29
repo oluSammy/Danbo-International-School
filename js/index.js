@@ -24,6 +24,9 @@
         height: 600
     });
 
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems, {});
+
     var elems1 = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems1, {});
 
