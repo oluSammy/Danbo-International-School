@@ -1,3 +1,5 @@
+ //Materialize js 
+
  document.addEventListener('DOMContentLoaded', function() {
      var carousel = document.querySelectorAll('.carousel');
       var instances = M.Carousel.init(carousel, {
@@ -68,6 +70,15 @@ const counting = (id, start, end, duration)=> {
             clearInterval(timer)
         }
     }, step)
-}
+};
 
-// const 
+//Materialize js end
+
+
+
+// Date
+const setDate = ()=>{
+    const year = new Date();
+    document.querySelector('.year-text').innerHTML = year.getFullYear();
+};
+setDate();
