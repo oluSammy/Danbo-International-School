@@ -83,7 +83,7 @@ html,body{
     padding-bottom: 3rem !important;
 }
 .pd-sm-1{
-    padding-bottom: 4rem;
+    padding-bottom: 4rem !important; 
 }
 .no-margin-top{
     margin-top: 0 !important;
